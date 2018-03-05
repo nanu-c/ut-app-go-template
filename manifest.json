@@ -1,0 +1,15 @@
+{
+    "name": "gotestapp.nanuc",
+    "title": "Go testapp",
+    "description": "description of net-info",
+    "architecture": "armhf",
+    "framework" : "ubuntu-sdk-15.04",
+    "hooks": {
+        "gotestapp": {
+            "apparmor": "go-testapp.apparmor",
+            "desktop": "go-testapp.desktop"
+        }
+    },
+    "version": "1.0",
+    "maintainer": "Aaron Kimmig <aaron@nanu-c.org>"
+}

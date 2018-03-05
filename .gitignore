@@ -1,0 +1,6 @@
+_*click
+textsecure-qml
+builddir
+build
+gopath/*
+.clickable/*

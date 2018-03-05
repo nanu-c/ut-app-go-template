@@ -1,0 +1,13 @@
+{
+  "template": "go",
+  "app": "gotestapp",
+  "gopath": "/home/nanu/src/go",
+  "kill": "qmlscene",
+  "dependencies":"qtbase5-private-dev:armhf qtdeclarative5-private-dev:armhf libqt5opengl5-dev:armhf",
+  "ignore":[
+    ".main.go",
+    ".git",
+    "src",
+    "*.click"
+  ]
+}
